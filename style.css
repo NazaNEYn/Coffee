@@ -4,9 +4,14 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgb(146, 144, 144);
+}
 
 /* ****** */
+
 /* Heart */
+
 /* ****** */
 
 .heart {
@@ -15,9 +20,9 @@
     left: 500px;
     width: 100px;
     height: 90px;
-  }
-  .heart:before,
-  .heart:after {
+}
+
+.heart:before, .heart:after {
     position: absolute;
     content: "";
     left: 50px;
@@ -28,15 +33,17 @@
     border-radius: 50px 50px 0 0;
     transform: rotate(-45deg);
     transform-origin: 0 100%;
-  }
-  .heart:after {
+}
+
+.heart:after {
     left: 0;
     transform: rotate(45deg);
     transform-origin: 100% 100%;
-  }
+}
 
 /* ********* */
 
+/* Coffee */
 
 .coffee {
     width: 100%;
@@ -68,6 +75,7 @@
     border-bottom: 35px solid wheat;
     border-left: 25px solid transparent;
     border-right: 25px solid transparent;
+    box-shadow: 0 1px;
 }
 
 .main::before {
@@ -85,13 +93,13 @@
 .label {
     position: absolute;
     top: -265px;
-    left: -44px;
-    width: 290px;
+    left: -40px;
+    width: 280px;
     height: 150px;
-    /* border-top: 178px solid rgb(139, 245, 69); */
     border-top: 178px solid rgb(167, 98, 98);
     border-left: 22px solid transparent;
     border-right: 22px solid transparent;
+    border-radius: 5px;
 }
 
 /* EYE */
@@ -106,7 +114,7 @@
 }
 
 .left-eye {
-    background-color: rgb(100, 82, 66);
+    background-color: rgb(90, 75, 61);
     height: 60px;
     width: 60px;
     border-radius: 100px;
@@ -127,7 +135,7 @@
 
 .right-eye {
     float: right;
-    background-color: rgb(100, 82, 66);
+    background-color: rgb(90, 75, 61);
     height: 60px;
     width: 60px;
     border-radius: 100px;
